@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selector Practice</title>
+</head>
+<style>
+    .intro{
+        font-style: italic;
+    }
+    .box p{
+        background-color: yellow;
+    }
+    li.active{
+        font-weight: bold;
+    }
+    .box span{
+        color: red;
+    }
+    .container >p{
+        color: blue;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Main Heading</h1>
+        <p class="intro">This is the introduction paragraph.</p>
+        <p>This is another paragraph.</p>
+        <div class="box">
+            <p class="highlight">This paragraph should be highlighted.</p>
+            <span>Important note</span>
+        </div>
+        <ul id="list">
+            <li>Item 1</li>
+            <li class="active">Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+</body>
+</html>

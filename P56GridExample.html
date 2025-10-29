@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Excerrsize</title>
+</head>
+<style>
+    *{
+         padding: 5px;
+      margin: 5%;
+    }
+    .container{
+        background-color:#2196F3;
+        display: grid;
+        grid-template-areas: "nav nav nav"
+                               "side article article"
+                               "footer footer footer";
+    }
+    .item{
+background-color:rgba(255, 255, 255, 0.8);
+    }
+    .item-1{
+    grid-area: nav;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+.item-2{
+grid-area: side;
+width: 190px;
+height: 150px;
+}
+.item-3{
+grid-area: article;
+width: 500px;
+height: 150px;
+}
+.item-4{
+grid-area: footer;
+ height: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="item item-1">My Header</div>
+        <div class="item item-2">Link</div>
+        <div class="item item-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maiores repellat aut consequatur voluptatum. Corrupti quis vel nemo provident itaque. Omnis necessitatibus ipsam, reprehenderit alias laboriosam provident maiores. Illo, quasi.</div>
+        <div class="item item-4">Footer</div>
+    </div>
+</body>
+</html>

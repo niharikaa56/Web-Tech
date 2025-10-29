@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Sizing</title>
+</head>
+<style>
+    *{
+margin: 0;
+padding: 0;
+    }
+    html{
+        font-size: 12px;
+    }
+
+    .box{
+        box-sizing: border-box;
+        border: 2px solid black;
+       /* width: 2048px;*/
+       width: 80vw;
+       margin: auto;
+       height: 10vh;
+        background-color: aquamarine;
+    }
+    .container{
+         box-sizing: border-box;
+        border: 2px solid black;
+       /* width: 2048px;*/
+       width: 80vw;
+      /* height: 80vh;*/
+      min-height: 80vh;
+       margin: 23px auto;
+       font-size: 18px;
+        background-color: aquamarine;
+    }
+    .container>div{
+        font-size: 2em;
+        border: 2px solid red;
+        width: 50%;
+
+    }
+    .container>div>div{
+        border: 2px solid blue;
+         width: 50%;
+    }
+    .mycont{
+        border: 2px solid black;
+        box-sizing: border-box;
+        margin:23px;
+        color: rgb(0, 0, 0);
+        font-size: 22px ;
+        /*width: 100vmin8*/;
+        width: 80vw;
+    }
+</style>
+<body>
+    <div class="box">
+    this is box
+    </div>
+
+    <div class="container">
+      <div>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quis, voluptatum sequi accusamus error illum exercitationem suscipit qui fugiat quo repellendus quas quia temporibus deleniti laboriosam nulla alias voluptatem nisi non. Aperiam, adipisci impedit perspiciatis consectetur eaque placeat, voluptates praesentium animi quod in voluptatibus sapiente deserunt quaerat error molestias non dolore laboriosam modi eveniet blanditiis accusamus.
+<div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem hic sapiente, explicabo provident error fugit enim. Reprehenderit harum optio debitis. Eligendi, voluptatibus sapiente! Aliquid saepe eum possimus libero laudantium? Quos rerum aperiam inventore ad eaque ea, earum deleniti autem velit recusandae. Debitis iusto, autem perferendis laborum in, nulla rerum est doloremque recusandae consequatur minus placeat delectus.
+</div>
+</div>
+    </div>
+    <div class="mycont">
+        i am another container
+    </div>
+</body>
+</html>

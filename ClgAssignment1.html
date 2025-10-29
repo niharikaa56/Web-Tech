@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+</head>
+<style>
+    button{
+background-color: rgb(99, 99, 235);
+color: black;
+ transition: all 0.5s ease-in-out
+    }
+     button:hover{
+            background-color: red;
+            color: antiquewhite;
+        }
+        img:hover{
+           transform: scale(1.1); 
+            transition: transform 0.5s ease;
+            box-shadow: 3px slategrey;
+            opacity: 1;
+        }
+        .box:hover{
+            background-color: crimson;
+            transform: translateX(100px);
+        }
+        .square{
+            height: 200px;
+            width: 200px;
+            border-style: solid;
+            background-color: deeppink;
+        }
+        .square:hover{
+            border-radius: 50%;
+        }
+        
+        h1:hover{
+           transition: opacity 1s ease-in;
+      color: #109c95;
+        }
+</style>
+<body>
+    <h1>Text Fade-In Effect</h1>
+    <button>Click me</button>
+    <img src="nature.jpg" alt="Nature" height="200px" width="200px">
+    <img src="nature1.jpg" alt="nature1"  height="200px" width="200px" >
+    <img src="nature3.jpg" alt="nature3"  height="200px" width="200px">
+    <div class="box">I am a box</div>
+    <div class="square"></div>
+</body>
+</html>
