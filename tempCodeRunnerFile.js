@@ -1,0 +1,1 @@
+console.log("hey this is 55 lec of sigma batch")
