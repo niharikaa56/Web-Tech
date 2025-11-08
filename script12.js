@@ -20,3 +20,22 @@ while (i<=50) {
         console.log(i)
     i++
 }
+
+//Q41.Reverse a string
+let str="hello";
+let rev="";
+for (let i =str.length-1 ; i >=0; i--) {
+    rev=rev+str[i]
+}
+console.log("reversed" ,rev)
+
+//Q42. Count vowels in a givel string
+
+let str1="niharika"
+let Count=0
+
+for(let ch of str1){
+if ("aeiouAeiuo".includes(ch)) 
+    Count++
+}
+console.log("vowel count",Count)
