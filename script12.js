@@ -32,10 +32,20 @@ console.log("reversed" ,rev)
 //Q42. Count vowels in a givel string
 
 let str1="niharika"
-let Count=0
+let  Count=0
 
 for(let ch of str1){
 if ("aeiouAeiuo".includes(ch)) 
     Count++
 }
 console.log("vowel count",Count)
+
+//Q43.Skip a number suing continue
+
+for (let i = 0; i <=10; i++) {
+   if (i==5) 
+    continue;
+console.log(i)
+}
+
+

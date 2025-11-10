@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #c3ec52, #0ba29d);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 280px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    
+
+    h2 {
+      color: #333;
+      margin-top: 10px;
+    }
+
+    p {
+      color: #555;
+      font-size: 14px;
+      margin: 10px 0;
+    }
+
+    .socials a {
+      display: inline-block;
+      margin: 5px;
+      padding: 8px 12px;
+      background: #0ba29d;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 13px;
+      transition: background 0.3s ease;
+    }
+
+    .socials a:hover {
+      background: #06786f;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    
+    <h2>Niharika Goswami</h2>
+    <p>👩‍💻 BCA Student | Web Learner | Java & Web Tech Enthusiast</p>
+    <div class="socials">
+      <a href="#">🌐 Website</a>
+      <a href="#">💼 LinkedIn</a>
+      <a href="#">📸 Instagram</a>
+    </div>
+  </div>
+</body>
+</html>
